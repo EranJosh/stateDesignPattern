@@ -39,3 +39,8 @@ A vending machine needs to manage different states, including "Idle", "ItemSelec
 - Remove state-specific logic from the VendingMachine class.
 - Introduce a reference to the current VendingMachineState object.
 - Delegate actions like selectItem, insertCoin, dispenseItem, and setOutOfOrder to the current state object through its corresponding methods.
+
+
+**UML CLASS DIAGRAM:**
+
+<img width="3472" height="2995" alt="State Design Pattern UML Class Diagram_Reyes, Eran" src="https://github.com/user-attachments/assets/8b2e1b44-ba7f-45b5-89ea-cfeee644e55e" />
